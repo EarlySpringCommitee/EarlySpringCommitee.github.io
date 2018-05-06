@@ -1,7 +1,7 @@
 window.onload = () => {
 
     document.querySelectorAll("#welcome .header").forEach(function(node) {
-        addClass(node, "inverted")
+        addClass(node, "show")
     });
 };
 
