@@ -10,10 +10,11 @@
     border-left: 5px solid #FFF;
     padding-left: 5px;
     overflow: hidden;
+    margin-left: 1px;
 }
 
 #welcome .container .header {
-    font-size: 5em;
+    font-size: 3em;
     line-height: 1.2em;
     color: #FFF;
     transform: translateX(-110%);
@@ -21,7 +22,7 @@
 }
 
 #welcome .container .sub.header {
-    font-size: 4em;
+    font-size: 2.5em;
     line-height: 1.2em;
     color: rgba(255, 255, 255, 0.79);
 }
