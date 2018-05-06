@@ -29,3 +29,16 @@
 #welcome .container .header.show {
     transform: none;
 }
+
+#footer {
+    position: absolute;
+    top: 1;
+    right: 1;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 5px;
+    color: #777;
+    font-size: 1.05em;
+}
