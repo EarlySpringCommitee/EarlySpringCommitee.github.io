@@ -7,6 +7,8 @@
 }
 
 #welcome .container {
+    border-left: 5px solid #FFF;
+    padding-left: 5px;
     overflow: hidden;
 }
 
