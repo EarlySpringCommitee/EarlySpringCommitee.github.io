@@ -9,13 +9,16 @@ html
         link(href='/css/style.css', rel='stylesheet')
         include ./jade/_tocasui.jade
         include ./jade/_tags.jade
+        
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+        script(src='/js/script.js')
         +social_tags('始春延期委員會','每天都要延期','https://avatars2.githubusercontent.com/u/35896048','https://EarlySpringCommitee.github.io/')
     body
         #welcome
             .container
                 .header 始春延期委員會
                 .sub.header 每天都要延期
-                //-.ts.relaxed.separated.buttons
-                    button.ts.warning.button 橙希
-                    button.ts.primary.button 雨藍
-                    button.ts.inverted.button 卡莉絲
+                //-.ts.relaxed.separated.primary.buttons
+                    a.ts.button 橙希
+                    a.ts.button 雨藍
+                    a.ts.button 卡莉絲
