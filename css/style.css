@@ -16,7 +16,7 @@
     font-size: 3em;
     line-height: 1.2em;
     color: #FFF;
-    transform: translateX(-110%);
+    transform: translateX(-300px);
     transition: 1s ease-out;
 }
 
