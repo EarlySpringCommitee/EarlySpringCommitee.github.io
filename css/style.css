@@ -1,0 +1,19 @@
+#welcome {
+    height: 100vh;
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome .container .header {
+    font-size: 5em;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+#welcome .container .sub.header {
+    font-size: 4em;
+    line-height: 1.2em;
+    color: rgba(255, 255, 255, 0.79);
+}
